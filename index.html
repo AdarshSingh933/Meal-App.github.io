@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Meal </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/86bfd4f27e.js" crossorigin="anonymous"></script>
+  <link rel = "stylesheet" href = "index.css">
+</head>
+<body>
+  
+  <div class = "container">
+    <div id="navigation">
+      <ul>
+        <li><a class="no-underline" href="#home">Home</a></li>
+        <li><a class="no-underline favorite-page" href="#fav-meal-page">Fav Meal</a></li>
+
+      </ul>
+    </div>
+    <h2 class="fav-meal-page-title hide-element">Favorite Meal Cart</h2>
+    <button type="button" class="btn mealInformation-close-btn hide-element" id="fav-meal-page-close-btn" aria-label="Close">
+      <i class="fas fa-times"></i>
+    </button>
+    <div id="fav-meal-page" class="hide-element display-none fav-meal-page">
+      
+    </div>
+    <div id="home" class = "meal-wrapper">
+      <div class = "meal-search">
+        <h2 class = "title">Find Meals</h2>
+        <blockquote>Good food is the foundation of genuine happiness.<br>
+          <cite>- Auguste Escoffier</cite>
+        </blockquote>
+
+        <div class = "meal-search-box">
+          <input type = "text" class = "search-control" placeholder="Enter Meal Name" id = "search-input">
+          <button type = "submit" class = "search-btn btn" id = "search-btn" aria-label="Search">
+            <i class = "fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class = "meal-result">
+        <h2 class = "title">Your Search Results:</h2>
+        <div class= "meal">
+          <!-- meal item -->
+          <!-- <div class = "meal-item">
+            <div class = "meal-img">
+              <img src = "food.jpg" alt = "food">
+            </div>
+            <div class = "meal-name">
+              <h3>Potato Chips</h3>
+              <a href = "#" class = "mealInformation-btn">Get Recipe</a>
+            </div>
+          </div> -->
+          <!-- end of meal item -->
+        </div>
+      </div>
+
+
+      <div class = "meal-details">
+        <!-- recipe close btn -->
+        <button type = "button" class = "btn mealInformation-close-btn" id = "mealInformation-close-btn" aria-label="Close">
+          <i class = "fas fa-times"></i>
+        </button>
+
+        <!-- meal content -->
+        <div class = "meal-details-content">
+          <!-- <h2 class = "mealInformation-title">Meals Name Here</h2>
+          <p class = "mealInformation-category">Category Name</p>
+          <div class = "mealInformation-instruct">
+            <h3>Instructions:</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo blanditiis quis accusantium natus! Porro, reiciendis maiores molestiae distinctio veniam ratione ex provident ipsa, soluta suscipit quam eos velit autem iste!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam voluptatibus ad obcaecati magnam, esse numquam nisi ut adipisci in?</p>
+          </div>
+          <div class = "mealInformation-meal-img">
+            <img src = "food.jpg" alt = "">
+          </div>
+          <div class = "mealInformation-link">
+            <a href = "#" target = "_blank">Watch Video</a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src = "index.js"></script>
+</body>
+</html>
