@@ -118,10 +118,6 @@ body{
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
     transition: all 0.4s linear;
-    -webkit-transition: all 0.4s linear;
-    -moz-transition: all 0.4s linear;
-    -ms-transition: all 0.4s linear;
-    -o-transition: all 0.4s linear;
 }
 .search-btn:hover{
     background: var(--tenne-tawny-dark);
@@ -134,10 +130,6 @@ body{
 }
 .meal-item{
     border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
     overflow: hidden;
     box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
     margin: 2rem 0;
@@ -205,10 +197,6 @@ body{
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -226,10 +214,6 @@ body{
     display: inline-block;
     padding: 0.2rem 0.5rem;
     border-radius: 0.3rem;
-    -webkit-border-radius: 0.3rem;
-    -moz-border-radius: 0.3rem;
-    -ms-border-radius: 0.3rem;
-    -o-border-radius: 0.3rem;
 }
 .mealInformation-instruct{
     padding: 1rem 0;
@@ -238,10 +222,6 @@ body{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
     margin: 0 auto;
     display: block;
 }
